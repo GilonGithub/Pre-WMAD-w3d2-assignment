@@ -3,8 +3,11 @@ let food = ['apple', 'orange', 'cake', 'carrots', 'pasta', 'rice', 'eggs'];
 
 let numbers = ['1', '2', '3', '4'];
 
-const addTheLast = function () {
+const addTheLast = function (firstArr, secondArr) {
+    
+    firstArr[firstArr.length] = secondArr[secondArr.length-1];
 
 };
 
 addTheLast(food, numbers);
+console.log(food);

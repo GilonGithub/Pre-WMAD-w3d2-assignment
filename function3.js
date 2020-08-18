@@ -2,9 +2,13 @@
 
 let example = [1, 2, 3, 4, 'five', 6, 7];
 
-const logItems = function () {
+const logItems = function (arr) {
+
+    arr.forEach(element => {
+        console.log(element)
+    });
 
 };
 
-logitems(example);
+logItems(example);
 
